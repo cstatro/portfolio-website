@@ -1,13 +1,75 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/* https://www.colorbox.io/#steps=11#hue_start=139#hue_end=113#hue_curve=easeInQuad#sat_start=6#sat_end=4#sat_curve=easeOutQuad#sat_rate=130#lum_start=100#lum_end=53#lum_curve=easeOutQuad#minor_steps_map=0*/
+@import url("https://fonts.googleapis.com/css?family=Linden+Hill|Maitree&display=swap");
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+* {
+  background: #d6e4d9;
+  /* font-family: "Linden Hill", serif; */
+  font-family: "Maitree", serif;
+  color: #646663;
+}
+body,
+#root,
+html {
+  height: 100%;
+  width: 100;
+  margin: 0;
+}
+.App {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+/* .nav {
+  background: #cbd7cd;
+  height: 10%;
+  width: 100%;
+  border-bottom: 1px solid #81878086;
+} */
+.right-panel,
+.left-panel {
+  height: 100%;
+  width: 50%;
+}
+.left-panel {
+  background: #cbd7cd;
+  display: grid;
+  grid-template-rows: 20% 30% 50%;
+}
+.left-panel > * {
+  background: #cbd7cd;
+}
+.portrait {
+  height: 100%;
+  width: auto;
+  background: #cbd7cd;
+  grid-row-start: 2;
+  align-self: center;
+  justify-self: center;
+}
+.stack-box {
+  grid-row-start: 3;
+  height: 90%;
+  width: 90%;
+  justify-self: center;
+  align-self: center;
+  display: grid;
+  grid-template-rows: 45% 45%;
+  row-gap: 10%;
+  column-gap: 6.66%;
+  grid-template-columns: 20% 20% 20% 20%;
+}
+.tech-icon {
+  height: 50%;
+  width: auto;
+  justify-self: center;
+  align-self: center;
+  background: #cbd7cd;
+}
+.right-panel {
+  display: grid;
+  grid-template-rows: 10% 20% 20% 50%;
+}
+.greeting {
+  grid-row-start: 2;
+  font-size: 3em;
 }
