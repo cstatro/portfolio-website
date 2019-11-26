@@ -69,6 +69,29 @@ html {
   display: grid;
   grid-template-rows: 10% 20% 20% 50%;
 }
+.corner-icons {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+}
+.contact-icon {
+  background-size: contain;
+  height: 3.5em;
+  width: 3.5em;
+  margin-right: 1.5em;
+}
+.linked-in {
+  background-image: url("./images/linkedinicon.png");
+}
+.git-hub {
+  background-image: url("./images/github.png");
+}
+.email {
+  background-image: url("./images/email.png");
+}
+
 .greeting {
   grid-row-start: 2;
   font-size: 3em;
