@@ -38,6 +38,37 @@ html {
 .left-panel > * {
   background: #cbd7cd;
 }
+.nav-box {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-template-rows: 85% 15%;
+}
+.nav-image {
+  height: 40%;
+  width: auto;
+  align-self: flex-end;
+  justify-self: center;
+  background: #cbd7cd;
+  margin-bottom: 3%;
+}
+.bottom-text {
+  justify-self: center;
+  align-self: center;
+}
+.resume-text {
+  grid-row-start: 2;
+  grid-column-start: 3;
+}
+.projects-text {
+  grid-row-start: 2;
+  grid-column-start: 1;
+}
+.resume {
+  grid-column-start: 3;
+}
+
 .portrait {
   height: 100%;
   width: auto;
@@ -48,18 +79,18 @@ html {
 }
 .stack-box {
   grid-row-start: 3;
-  height: 90%;
+  height: 70%;
   width: 90%;
   justify-self: center;
   align-self: center;
   display: grid;
   grid-template-rows: 45% 45%;
-  row-gap: 10%;
+  row-gap: 0%;
   column-gap: 6.66%;
   grid-template-columns: 20% 20% 20% 20%;
 }
 .tech-icon {
-  height: 50%;
+  height: 45%;
   width: auto;
   justify-self: center;
   align-self: center;
@@ -69,6 +100,7 @@ html {
   display: grid;
   grid-template-rows: 10% 20% 20% 50%;
 }
+
 .corner-icons {
   display: flex;
   height: 100%;
