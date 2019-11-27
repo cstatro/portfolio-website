@@ -128,3 +128,8 @@ html {
   grid-row-start: 2;
   font-size: 3em;
 }
+.project-list {
+  background: #cbd7cd;
+  height: 100%;
+  width: 50%;
+}

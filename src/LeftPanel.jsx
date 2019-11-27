@@ -12,14 +12,18 @@ import resume from "./images/resume.png";
 class LeftPanel extends Component {
   constructor(props) {
     super(props);
-    this.myRef = createRef();
   }
 
   render() {
+    const { projectViewToggle } = this.props;
     return (
       <div className="left-panel">
         <div className="nav-box">
-          <img className="nav-image" src={portfolio} />
+          <img
+            onClick={projectViewToggle}
+            className="nav-image"
+            src={portfolio}
+          />
           <img
             onClick={() =>
               window.open(
