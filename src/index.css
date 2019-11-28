@@ -98,7 +98,7 @@ html {
 }
 .right-panel {
   display: grid;
-  grid-template-rows: 10% 20% 20% 50%;
+  grid-template-rows: 10% 90%;
 }
 
 .corner-icons {

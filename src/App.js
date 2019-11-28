@@ -8,7 +8,7 @@ import ProjectList from "./ProjectList";
 config({ ssrFadeout: true });
 
 class App extends Component {
-  state = { projectView: false, currentProject: 1 };
+  state = { projectView: false, currentProject: 0 };
 
   projectViewToggle = () => {
     this.setState({ projectView: !this.state.projectView });
@@ -22,8 +22,7 @@ class App extends Component {
         ) : (
           <LeftPanel projectViewToggle={this.projectViewToggle} />
         )}
-        ;
-        <RightPanel />
+        <RightPanel {...this.state} />
       </div>
     );
   }
