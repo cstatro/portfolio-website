@@ -1,4 +1,3 @@
-import "./App.css";
 import React, { Component } from "react";
 import LeftPanel from "./LeftPanel";
 import RightPanel from "./RightPanel";
