@@ -12,12 +12,19 @@ class App extends Component {
   projectViewToggle = () => {
     this.setState({ projectView: !this.state.projectView });
   };
+  setCurrentProject = currentProject => {
+    this.setState({ currentProject });
+  };
   render() {
     const { projectView } = this.state;
     return (
       <div className="App">
         {projectView ? (
-          <ProjectList projectViewToggle={this.projectViewToggle} />
+          <ProjectList
+            {...this.state}
+            setCurrentProject={this.setCurrentProject}
+            projectViewToggle={this.projectViewToggle}
+          />
         ) : (
           <LeftPanel projectViewToggle={this.projectViewToggle} />
         )}
