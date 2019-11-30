@@ -132,7 +132,21 @@ html {
 
 .greeting {
   grid-row-start: 2;
-  font-size: 3em;
+  font-size: 3vw;
+  margin-left: 2%;
+}
+.txt-name {
+  grid-row-start: 3;
+  font-size: 2.8vw;
+  margin-left: 8%;
+}
+.txt-fullstack {
+  grid-row-start: 4;
+  font-size: 2.7vw;
+  margin-left: 14%;
+}
+.txt-intro {
+  grid-row-start: 5;
 }
 .project-list {
   background: #cbd7cd;
