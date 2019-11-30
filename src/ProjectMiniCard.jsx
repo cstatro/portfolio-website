@@ -5,7 +5,8 @@ const ProjectMiniCard = props => {
     currentProject,
     projectIndex,
     projectName,
-    setCurrentProject
+    setCurrentProject,
+    primaryImage
   } = props;
 
   const displayClass =
@@ -16,6 +17,7 @@ const ProjectMiniCard = props => {
       onClick={() => setCurrentProject(projectIndex)}
       className={displayClass}
     >
+      <img src={primaryImage} alt="" />
       {projectName}
     </div>
   );
