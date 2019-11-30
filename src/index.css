@@ -147,6 +147,8 @@ html {
 }
 .txt-intro {
   grid-row-start: 5;
+  width: 75%;
+  justify-self: center;
 }
 .project-list {
   background: #cbd7cd;
@@ -199,4 +201,19 @@ html {
   width: 30%;
   height: auto;
   margin-right: 2%;
+}
+
+.project-detail {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 10% 10% 40% 40%;
+}
+.tech-list {
+  display: flex;
+}
+.tech-box {
+  border: 1px solid #646663;
+  height: 2.2vw;
+  padding: 0.5vw;
 }
