@@ -207,7 +207,7 @@ html {
   height: 100%;
   width: 100%;
   display: grid;
-  grid-template-rows: 10% 10% 40% 40%;
+  grid-template-rows: 10% 10% 30% 50%;
 }
 .tech-list {
   display: flex;
@@ -216,4 +216,32 @@ html {
   border: 1px solid #646663;
   height: 2.2vw;
   padding: 0.5vw;
+  display: flex;
+  align-items: center;
+  margin-left: 1.5vw;
+  border-radius: 5vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font-weight: bolder;
+}
+.project-pics {
+  height: 90%;
+  width: 90%;
+  align-self: center;
+  justify-self: center;
+  display: grid;
+  grid-template-rows: 48% 48%;
+  grid-template-columns: 48% 48%;
+  row-gap: 3%;
+  column-gap: 2%;
+}
+.project-pics > img {
+  height: 100%;
+  width: auto;
+}
+.even-pic {
+  justify-self: end;
+}
+.odd-pic {
+  justify-self: start;
 }
