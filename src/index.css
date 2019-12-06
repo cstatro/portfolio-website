@@ -212,6 +212,12 @@ html {
 .tech-list {
   display: flex;
 }
+.project-description {
+  width: 90%;
+  align-self: start;
+  justify-self: center;
+  text-align: justify;
+}
 .tech-box {
   border: 1px solid #646663;
   height: 2.2vw;
@@ -224,20 +230,16 @@ html {
   padding-right: 1vw;
   font-weight: bolder;
 }
-.project-pics {
+.demo-vid-box {
   height: 90%;
   width: 90%;
-  align-self: center;
+  align-self: start;
   justify-self: center;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.project-pics > img {
+.demo-vid {
   height: 100%;
-  width: auto;
-}
-.even-pic {
-  justify-self: end;
-}
-.odd-pic {
-  justify-self: start;
+  width: 90%;
 }

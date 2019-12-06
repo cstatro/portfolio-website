@@ -1,12 +1,8 @@
 import primaryPodPeople from "./images/pod-people/primaryPodPeople.png";
-import pod01 from "./images/pod-people/pod01.png";
-import pod02 from "./images/pod-people/pod02.png";
-import pod03 from "./images/pod-people/pod03.png";
-import pod04 from "./images/pod-people/pod04.png";
 
 export const projectsData = [
   {
-    projectName: "Test Project",
+    projectName: "Pod People",
     techStack: [
       "Javascript",
       "React",
@@ -16,10 +12,9 @@ export const projectsData = [
       "Custom CSS"
     ],
     primaryImage: primaryPodPeople,
-    screenCaps: [pod01, pod02, pod03, pod04],
     videoDemo: "https://www.youtube.com/embed/8Yz_8siyL9c",
     projectDescription:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima officia voluptas, nobis, rerum a molestiae nostrum fugiat veniam unde vel, voluptate adipisci laboriosam. Unde eius nobis perspiciatis consectetur eligendi quae."
+      "Pod People is a podcast organization app that allows users to share thematically grouped lists of podcasts with one another. The lists can contain both entire podcasts or individual episodes. Podcasts can be played in the navbar while the user navigates the pages. Data for pod people is parsed from rss feeds that are sourced through the iTunes API."
   },
   {
     projectName: "Test Project2",

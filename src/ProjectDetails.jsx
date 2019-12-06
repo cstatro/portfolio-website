@@ -14,8 +14,16 @@ const ProjectDetails = props => {
     <div className="project-detail">
       <div className="project-title">{data.projectName}</div>
       <div className="tech-list">{techStackList}</div>
-      <div>{data.projectDescription}</div>
-      <div className="demo-vid"></div>
+      <div className="project-description">{data.projectDescription}</div>
+      <div className="demo-vid-box">
+        <iframe
+          className="demo-vid"
+          src={data.videoDemo}
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
     </div>
   );
 };
