@@ -229,11 +229,7 @@ html {
   width: 90%;
   align-self: center;
   justify-self: center;
-  display: grid;
-  grid-template-rows: 48% 48%;
-  grid-template-columns: 48% 48%;
-  row-gap: 3%;
-  column-gap: 2%;
+  display: flex;
 }
 .project-pics > img {
   height: 100%;

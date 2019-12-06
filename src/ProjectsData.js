@@ -17,6 +17,7 @@ export const projectsData = [
     ],
     primaryImage: primaryPodPeople,
     screenCaps: [pod01, pod02, pod03, pod04],
+    videoDemo: "https://www.youtube.com/embed/8Yz_8siyL9c",
     projectDescription:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima officia voluptas, nobis, rerum a molestiae nostrum fugiat veniam unde vel, voluptate adipisci laboriosam. Unde eius nobis perspiciatis consectetur eligendi quae."
   },
