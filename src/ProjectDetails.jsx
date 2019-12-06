@@ -10,17 +10,12 @@ const ProjectDetails = props => {
     <div className="tech-box">{t}</div>
   ));
 
-  const screenShots = data.screenCaps.map((d, i) => {
-    const classChoice = i % 2 === 0 ? "even-pic" : "odd-pic";
-    return <img className={classChoice} src={d}></img>;
-  });
-
   return (
     <div className="project-detail">
       <div className="project-title">{data.projectName}</div>
       <div className="tech-list">{techStackList}</div>
       <div>{data.projectDescription}</div>
-      <div className="project-pics">{screenShots}</div>
+      <div className="demo-vid"></div>
     </div>
   );
 };
