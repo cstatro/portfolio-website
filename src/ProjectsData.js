@@ -18,7 +18,7 @@ export const projectsData = [
   },
   {
     projectName: "Test Project2",
-    techStack: ["Javascript", "React", "ElbowGrease"],
+    techStack: ["Javascript", "React", "ElbowGreasy"],
     primaryImage: primaryPodPeople,
     projectDescription:
       "Quicker, easier booking process the talent through making FYREAPP. COM Fyre assess – defines how that we we engage the fee audiences, consume buyers for media and to our share content incredible value by connecting We provide consumers, celebrities on bookings and brands from talent through live a commission experiences. Understanding not take that today’s and does cohort interacts, to buyers engages and 10% fee follows a assesses a new generation model Fyre of role coordination. Revenue models who and day-of are defining to payment, today’s culture, initial offer the Fyre process, from platform securely entire booking and confidentially manages the."
